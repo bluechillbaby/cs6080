@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 23px 40px 0 20px;
+    width: 73%;
+}
+
+@media (max-width: 501px) {
+    body {
+        width: 70%;
+    }
+
+    #set-date-section {
+        flex-direction: column;
+    }
+}
+
+#parent {
+    padding: 20px;
+    box-shadow: 0 3px 10px lightgrey;
+    background-color: white;
+}
+
+input {
+    border: 0;
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #f0f3f5;
+    font-size: 1em;
+}
+
+#set-destination-section {
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.destination-input {
+    display: flex;
+    background-color: #f0f3f5;
+    padding: 5px;
+    margin-bottom: 7px;
+    position: relative;
+    border-bottom: 0.1px solid lightgrey;
+    z-index: 1;
+}
+
+#up-down-arrow {
+    position: absolute;
+    right: 5%;
+    top: 42%;
+    transform: translateY(-50%);
+    z-index: 2;
+    background-color: white;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rotate-button {
+    height: 65%;
+    width: 65%;
+    margin-left: 1px;
+    padding: 5px;
+}
+
+#set-date-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.date-input {
+    display: flex;
+    flex: 1;
+    border-bottom: 0.1px solid lightgrey;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.destination-icon {
+    padding: 5px 5px 0 5px;
+    width: 17px;
+    height: 17px;
+}
+
+h4 {
+    font-size: 0.8em;
+    margin: -3px 0 2px;
+}
+
+.icon {
+    margin-bottom: 22px;
+    margin-right: 5px;
+    width: 17px;
+    height: 17px;
+}
+
+.secondary-input {
+    background-color: white;
+    width: 100%;
+    color: grey;
+    font-size: 0.8em;
+}
+
+.date-details {
+    display: flex;
+    align-items: center;
+}
+
+#set-passenger-section {
+    margin-right: 12px;
+}
+
+#passenger-input {
+    display: flex;
+    border-bottom: 0.1px solid lightgrey;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 0;
+}
+
+#passenger-details {
+    display: flex;
+    align-items: center;
+    margin: 15px 0 10px;
+}
+
+.arrow {
+    color: #ec0016;
+    font-weight: 100;
+    font-size: medium;
+}
+
+#button-section {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.72em;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+#button-outer {
+    display: flex;
+    border-radius: 20px;
+    width: 140px;
+    height: 22px;
+    background-color: #f0f3f5;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    padding-left: 10px;
+    margin: 15px;
+}
+
+#button-inner {
+    background-color: #333;
+    height: 22px;
+    width: 80px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-button {
+    justify-content: flex-start;
+    width: 100%;
+}
+
+button {
+    background-color: #ec0016;
+    padding: 12px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}

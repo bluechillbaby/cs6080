@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 100%;
+    height: 100%;
+    max-width: 1555px;
+    max-height: 808px;
+    margin: 0px;
+}
+
+#container {
+    display: flex;
+    background-color: #003781;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 85px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+
+.info {
+    flex: 1;
+    text-align: center;
+}
+
+.heading {
+    margin-top: 50px;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.description {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: large;
+    font-weight: 100;
+    letter-spacing: 0.3px;
+    padding-top: 35px;
+}
+
+img {
+    width: 440px;
+    height: 325px;
+    object-fit: cover;
+}
+
+.external-link {
+    display: flex;
+    justify-content: center;
+    font-weight: 550;
+    letter-spacing: 1px;
+    padding-top: 30px;
+    font-size: larger;
+}
+
+.arrow {
+    margin-top: 17px;
+    margin-right: 10px;
+}
+
+#car-section {
+    margin-right: 10px;
+}
+
+#family-section {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#pottery-section {
+    margin-left: 10px;
+}
